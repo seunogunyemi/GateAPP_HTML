@@ -4,12 +4,16 @@
 					align-items: stretch;
 }
 
-#sidebar		{
+#sidebar 		{
 					min-width: 250px;
 					max-width: 250px;
 					min-height: 100vh;
 					background-color: #49A347;
 					padding-left: 30px;
+}
+
+.gatepasslogo		{
+						
 }
 
 #sidebar.active {
@@ -96,7 +100,7 @@ input[type="file"]::-webkit-file-upload-button  {
 							float: right;
 							margin-top: 25px;
 							font-size: 1.5vw;
-							margin-right: 40px;
+							margin-right: 45px;
 }
 
 #content				{
@@ -105,7 +109,7 @@ input[type="file"]::-webkit-file-upload-button  {
 						font-size: 1.0vw;
 }
 input[type="search"]		{
-								width: 70%;
+								width: 50%;
 								border: 1px solid black;
 }
 
@@ -113,4 +117,33 @@ input[type="search"]		{
 								color: #49A347;
 }
 
+/*estate_review css starts here*/
+.picture1			{
+							position: absolute;
+							top: 20px;
 
+}
+
+.aside-right		{
+						float: right;
+						color: #49A347;
+						font-size: 1vw;
+}
+
+.heading			{
+						font-weight: bolder;
+}
+
+.aside-red			{
+						color: red;
+						font-size: 1vw;
+						float: right;
+}
+
+.review_details			{
+							margin-left: 10px;
+}
+
+.grey				{
+						color: grey;
+}
